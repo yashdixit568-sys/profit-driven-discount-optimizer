@@ -37,7 +37,9 @@ const Index = () => {
   const [loading, setLoading] = useState(false);
   const [models, setModels] = useState<TrainedModels | null>(null);
   const [filterOpen, setFilterOpen] = useState(false);
-  const [formatMode, setFormatMode] = useState<NumberFormatMode>("compact");
+  const initialFormatMode: NumberFormatMode =
+    import.meta.env.VITE_DEFAULT_FORMAT_MODE === "full" ? "full" : "compact";
+  const [formatMode, setFormatMode] = useState<NumberFormatMode>(initialFormatMode);
 
   const [filters, setFilters] = useState<Filters>({
     category: "all",
