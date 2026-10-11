@@ -8,6 +8,8 @@
 
 **Profit-Driven Discount Optimizer (RetailIQ)** is a client-side business decision assistant and retail discount optimization engine. It transforms raw sales transaction CSVs into clean executive KPIs, transparent data-driven findings, and actionable discount recommendations that maximize net profitability.
 
+🔗 **Live Application**: [https://smart-discount-hub-main.vercel.app](https://smart-discount-hub-main.vercel.app)
+
 ---
 
 ## 🌟 Core Highlights
